@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="destop-nav">
+        <div class="logo">Tejeshwa Anand</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger">
+        <div class="logo">Tejeshwa Anand</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="togglemenu()">About</a></li>
+                <li><a href="#skills" onclick="togglemenu()">Skills</a></li>
+                <li><a href="#project" onclick="togglemenu()">Project</a></li>
+                <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="pic-container">
+            <img src="assets/profile-pic.png" alt="Tejeshwa Anand" class="profile-pic">
+        </div>
+        <div class="section-text">
+            <p class="section-p1">Hello, I'm</p>
+            <h1 class="title">Tejeshwa Anand</h1>
+            <p class="section-p2">Web Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color1" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
+                <button class="btn btn-color2" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="social-container">
+                <img src="/assets/linkedin.png" alt="My linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/tejeshwa-anand-344396229/'">
+                <img src="/assets/github.png" alt="My github profile" class="icon" onclick="location.href='https://github.com/tejeshwaanand'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section-p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="pic-container">
+                <img src="./assets/about-pic.png" alt="profile pic" class="about-pic">
+            </div>
+            <div class="about-detail-container">
+                <div class="about-container">
+                    <div class="detail-container">
+                        <img src="./assets/experience.png" alt="skills" class="icon">
+                        <h3>Skills</h3>
+                        <p>... <br>....</p>
+                    </div>
+                    <div class="detail-container">
+                        <img src="./assets/education.png" alt="education-png" class="icon">
+                        <h3>Education</h3>
+                        <p>B.tech <br>Computer Science</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, cumque. Facilis, magni incidunt. Est provident, architecto explicabo veritatis, molestiae unde placeat ducimus possimus culpa, mollitia vero. Tempore magni veniam nemo?</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='#skills'">
+    </section>
+    <section id="skills">
+        <p class="section-p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="skill-detail-container">
+            <div class="about-container">
+                <div class="detail-container">
+                    <h2 class="skill-sub-title">Frontend Developer</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="checkmarke" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="checkmarke" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="checkmarke" class="icon">
+                            <div>
+                                <h3>Javascript</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="checkmarke" class="icon">
+                            <div>
+                                <h3>React</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article><article>
+                            <img src="./assets/checkmark.png" alt="checkmarke" class="icon">
+                            <div>
+                                <h3>Node</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+                <div class="detail-container">
+                    <h2 class="skill-sub-title">Backend Developer</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="checkmarke" class="icon">
+                            <div>
+                                <h3>My Sql</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="checkmarke" class="icon">
+                            <div>
+                                <h3>MongoDb</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="checkmarke" class="icon">
+                            <div>
+                                <h3>EXpress</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article><article>
+                            <img src="./assets/checkmark.png" alt="checkmarke" class="icon">
+                            <div>
+                                <h3>Node Js</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='#project'">
+    </section>
+    <section id="project">
+        <p class="section-p1">Browse My Recent</p>
+        <h2 class="title">Projects</h2>
+        <div class="project-detail-container">
+            <div class="about-container ">
+
+                <div class="detail-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-1.png" alt="project1" class="project-pic">
+                    </div>
+                    <h2 class="skill-sub-title project-subtitle">Project One</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color1 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                        <button class="btn btn-color1 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+                    </div>
+                </div>
+                <div class="detail-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-2.png" alt="project2" class="project-pic">
+                    </div>
+                    <h2 class="skill-sub-title project-subtitle">Project Two</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color1 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                        <button class="btn btn-color1 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+                    </div>
+                </div>
+                <div class="detail-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" alt="project3" class="project-pic">
+                    </div>
+                    <h2 class="skill-sub-title project-subtitle">Project Three</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color1 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                        <button class="btn btn-color1 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='#contact'">
+    </section>
+    <section id="contact">
+        <p class="section-p1">Get In Touch</p>
+        <h2 class="title">Contact</h2>
+        <div class="contact-detail-container">
+            <div class="container-info">
+                <img src="./assets/email.png" alt="my-email" class="icon contact-icon">
+                <p><a href="mailto:tejeshwanov25@gmail.com">tejeshwanov25@gmail.com</a></p>
+            </div>
+            <div class="container-info">
+                <img src="./assets/linkedin.png" alt="my-linkdin" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/tejeshwa-anand-344396229/'">Tejeshwa Anand</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="fotter-p">
+
+            <p>Copyright &#169; Tejeshwa Anand All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

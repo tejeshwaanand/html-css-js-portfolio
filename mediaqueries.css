@@ -1,0 +1,107 @@
+@media  screen and (max-width:1400px) {
+    #profile{
+        height: 83vh;
+        margin-bottom:6rem;
+
+    }
+    .about-container{
+        flex-wrap: wrap;
+    }
+    
+}
+@media screen and (max-width:1200px){
+    
+    #destop-nav{
+        display: none;
+    }
+    #hamburger{
+        display: flex;
+        height: 5rem;
+    }
+    
+    #skill, .skill-detail-container, .project-detail-container, .about-detail-container{
+        margin: 2rem;
+    }
+    #profile, .section-container{
+        display: block;
+    }
+    .arrow{
+        display: none;
+    }
+    section, .section-container{
+        height: fit-content;
+    }
+    section{
+        margin: 0.5%;
+    }
+    .pic-container{
+        height: 200px;
+        width: 200px;
+        margin: 2rem;
+
+    }
+    .about-container{
+        margin-top: 0;
+    }
+    #project{
+        margin-bottom: 0;
+    }
+    
+}
+@media screen and (max-width:600px){
+    .logo{
+        font-size: 1.5rem;
+    }
+    #contact{
+        position: relative;
+        margin-top: 0;
+        padding: 0;
+    } 
+    #profile{
+        height: 83vh;
+        margin-bottom: 10rem;
+        
+    }
+    article{
+        font-size: 1rem;
+    }
+    fotter nav{
+        margin-bottom: 2rem;
+    }
+    .about-container, .contact-detail-container, .btn-container{
+        flex-wrap: wrap;
+    }
+    .contact-info{
+        margin: 0;
+    }
+    .contact-info p, .nav-links li a{
+        font-size: 1rem;
+    }
+    .skill-sub-title{
+        font-size: 1.25rem;
+    }
+    .nav-links-container{
+        margin-top: 2rem;
+        
+    }
+    .nav-links{
+        flex-direction: column;
+        gap: 0rem;
+        text-align: center;
+    }
+    .pic-container{
+        justify-content: center;
+        width: auto;
+        height: 46vb;
+    }
+    
+    .fotter-p{
+        margin-top: 2rem;
+    }
+
+    .contact-detail-container{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+}
